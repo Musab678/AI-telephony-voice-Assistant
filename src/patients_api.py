@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException, Query, Request, Response, status
 from fastapi.responses import JSONResponse, StreamingResponse, FileResponse
 from pydantic import BaseModel, Field, field_validator, ValidationError
 import httpx
+import sqlite3
 from database import get_db_connection
 
 router = APIRouter(tags=["Patients"])
