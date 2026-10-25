@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+venv
+env
+src/venv
+__pycache__
+*.pyc
+node_modules
+frontend/node_modules
+recordings/*.wav
+tests
+*.db
+*.sqlite3
+mlruns
