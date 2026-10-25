@@ -147,3 +147,5 @@ All responses use the standard JSON envelope: `{ "data": ..., "error": null }`.
 | `GET` | `/api/patients/calls` | Get call sessions & audio recordings |
 | `POST` | `/api/vapi/webhook` | Vapi telephony webhook for live inbound calls |
 | `GET` | `/health` | Health check endpoint |
+
+
